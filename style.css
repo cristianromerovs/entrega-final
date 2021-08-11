@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-custom {
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-custom a {
+    color: rgb(16, 16, 16);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.agregar-producto {
+    border: 1px solid rgb(220, 220, 220);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.agregar-producto h1{
+    color: rgb(16, 16, 16);
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+}
+
+.agregar-producto input[type=text], .agregar-producto input[type=number]{
+    font-size: 13px;
+    color: rgb(20, 20, 20);
+    border: none;
+    background-color: #f7f7f7;
+    padding: 10px;
+    margin: 5px 0px;
+    border-radius: 20px;
+    display: block;
+    width: 100%;
+}
+
+.btn-estilo{
+    font-size: 13px;
+    color: #fff;
+    border: none;
+    background-color: rgb(16, 16, 16);
+    padding: 10px 30px;
+    margin-top: 30px;
+    font-weight: 600;
+}
